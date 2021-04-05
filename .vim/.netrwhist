@@ -1,0 +1,6 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/home/mariano/Documentos/shell/bash_academy.d'
+let g:netrw_dirhist_2='/home/mariano/.config/i3'
+let g:netrw_dirhist_3='/home/mariano/Proyectos/analisis'
+let g:netrw_dirhist_4='/home/mariano/.dwm/dwm-6.2'
