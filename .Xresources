@@ -12,40 +12,39 @@ URxvt.scrollBar_right:	false
 URxvt.copyCommand:  xclip -i -selection clipboard
 URxvt.pasteCommand: xclip -o -selection clipboard
 
-!! Xorg - colores 
-*.background:   #23221f
-*.foreground:	#dee2e6
+!! colores de https://terminal.sexy
+*.foreground:   #f5f5f5
+*.background:   #0c0d0c
+*.cursorColor:  #f5f5f5
 
-*.cursorColor:  #afbfbf
+! black
+*.color0:       #252323
+*.color8:       #696966
 
-! negro
-*.color0:       #23221f
-*.color8:       #3c3d37
+! red
+*.color1:       #e04151
+*.color9:       #ff6f69
 
-! rojo
-*.color1:       #fd1100
-*.color9:       #fd371f
+! green
+*.color2:       #1ccf75
+*.color10:      #57e39d
 
-! verde
-*.color2:       #0ccf5f
-*.color10:      #0cdc83
+! yellow
+*.color3:       #ffcc5c
+*.color11:      #fff68f
 
-! amarillo
-*.color3:       #e8e61f
-*.color11:      #e8f884
-
-! azul
-*.color4:       #2b529a
-*.color12:      #1860a2
+! blue
+*.color4:       #3b5998
+*.color12:      #4094be
 
 ! magenta
-*.color5:       #f91aa2
-*.color13:      #f94cbd
+*.color5:       #d66bc2
+*.color13:      #ff92c8
 
 ! cyan
-*.color6:       #32c5e7
-*.color14:      #11cbef
+*.color6:       #40e0d0
+*.color14:      #94fff4
 
-! blanco
-*.color7:       #dee2e6
-*.color15:      #f8f8f0
+! white
+*.color7:       #f7f7f7
+*.color15:      #f0f8ff
