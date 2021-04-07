@@ -1,0 +1,51 @@
+!! URxvt apariencia
+URxvt.font:             xft:SourceCodePro:style=Regular:size=09
+URxvt.depth:            24
+URxvt.buffered: 	    true
+URxvt.lineSpace:        0
+URxvt.letterSpace:      0
+URxvt.cursorBlink:	    true
+URxvt.scrollBar:	    false
+URxvt.scrollBar_right:	false
+
+!! URxvt util
+URxvt.copyCommand:  xclip -i -selection clipboard
+URxvt.pasteCommand: xclip -o -selection clipboard
+
+!! Xorg - colores 
+*.background:   #23221f
+*.foreground:	#dee2e6
+
+*.cursorColor:  #afbfbf
+
+! negro
+*.color0:       #23221f
+*.color8:       #3c3d37
+
+! rojo
+*.color1:       #fd1100
+*.color9:       #fd371f
+
+! verde
+*.color2:       #0ccf5f
+*.color10:      #0cdc83
+
+! amarillo
+*.color3:       #e8e61f
+*.color11:      #e8f884
+
+! azul
+*.color4:       #2b529a
+*.color12:      #1860a2
+
+! magenta
+*.color5:       #f91aa2
+*.color13:      #f94cbd
+
+! cyan
+*.color6:       #32c5e7
+*.color14:      #11cbef
+
+! blanco
+*.color7:       #dee2e6
+*.color15:      #f8f8f0
